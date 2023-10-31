@@ -1,0 +1,101 @@
+body {
+
+    font-family: Arial, sans-serif;
+    margin: 0; 
+    padding: 0; 
+}
+
+#header {
+    background-color: rgb(6, 87, 112);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 16px;
+}
+
+#kontener {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(56, 101, 168, 0.7);
+    border-radius: 20px;
+    margin: 50px;
+}
+
+#image {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+#name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#job-title {
+    font-size: 18px;
+    color: #555;
+}
+
+#bio {
+    font-size: 16px;
+    padding: 20px;
+}
+#footer {
+    background-color: #002855; 
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+#identitas {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #333;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #002855; 
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; 
+}
+
+tr:nth-child(odd) {
+    background-color: #fff; 
+}
+#social-media {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#social-media a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#social-media a:hover {
+    background-color: #0056b3;
+}
